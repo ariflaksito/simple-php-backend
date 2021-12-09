@@ -1,6 +1,7 @@
 <?php
 	if($_SERVER['REQUEST_METHOD']=='POST'){
-		
+
+		//Perubahan di comment file
 		//Mendapatkan Nilai Variable
 		$name = $_POST['name'];
 		$position = $_POST['position'];

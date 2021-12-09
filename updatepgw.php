@@ -1,6 +1,7 @@
 <?php
 if($_SERVER['REQUEST_METHOD']=='POST'){
-		//MEndapatkan Nilai Dari Variable 
+
+		//Mendapatkan Nilai Dari Variable 
 		$id = $_POST['id'];
 		$name = $_POST['name'];
 		$position = $_POST['position'];
